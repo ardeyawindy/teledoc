@@ -1,0 +1,162 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>TeleDoc</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <!--logo-->
+      <div class="logo-nav">
+        <a href="#"><img src="logo.png" href="#" alt="TeleDoc" width="120" height="38" /></a>
+      </div>
+      <!--menu-->
+      <div class="navbar-nav">
+        <a href="#">Beranda</a>
+        <a href="#">Dokter</a>
+        <a href="#">Notifikasi</a>
+        <a href="#">Artikel</a>
+      </div>
+      <!--button-->
+      <div class="navbar-extra">
+        <button class="masuk">Masuk</button>
+      </div>
+    </nav>
+    <!--end navbar-->
+
+    <!-- hero -->
+    <div class="hero">
+      <div class="hero-content">
+        <h1>Konsultasi Kesehatan dengan Mudah</h1>
+        <p>Chat dokter, konsultasi online, informasi kesehatan terupdate</p>
+        <p>Semua ada di TeleDoc</p>
+        <a href="#" class="button">Chat Dokter Sekarang</a>
+      </div>
+      <div class="hero-img">
+        <img src="hero.png" alt="" />
+      </div>
+    </div>
+    <!--end hero-->
+
+
+    <!--artikel-->
+    <section class="artikel" id="artikel">
+      <div class="label-artikel">
+        Artikel Kami
+    </div>
+      <div class="container">
+        <div class="card">
+          <div class="card-header">
+            <img src="https://d1bpj0tv6vfxyp.cloudfront.net/articles/fda45c34-bc96-45f6-8283-25afb57bbaa9_article_image_url.webp" alt="daun okra" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Makanan Sehat</span>
+            <h4>
+              Kenali 7 Manfaat Rutin Daun Okra
+            </h4>
+            <p class="p">
+              “Okra mengandung vitamin C dan nutrisi lain yang baik untuk kesehatan tubuh. Hal ini membuat okra mampu membantu untuk menurunkan kolesterol, mencegah osteoporosis, hingga mencegah penyakit kanker.”
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/03024031/Hati-Hati-Ini-X-Bahan-Kimia-Beracun-yang-Kerap-Ada-di-Rumah.png.webp" alt="bahan kimia" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-purple">Hidup Sehat</span>
+            <h4>
+              Hati-Hati, Ini 5 Bahan Kimia Beracun yang Kerap Ada di Rumah
+            </h4>
+            <p class="p">
+              “Tanpa disadari dalam produk yang ada di rumah, terdapat bahan kimia yang beracun yang bisa menyebabkan penyakit. Bahan-bahan tersebut di antaranya natrium hipoklorit, amonia, dan formaldehyde”.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="https://img-cdn.medkomtek.com/2ribOrf5TxKRbKvcm3ZxUW-XpTY=/730x411/smart/filters:quality(75):strip_icc():format(webp)/article/PfG_Pk0sZONWI3bqm-RcP/original/079576600_1483451185-ProjectImages_Hati-Hati-Begadang-Bisa-Sebabkan-Jantung-Berdebar.jpg" alt="city" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-pink">Jantung</span>
+            <h4>
+              Hati-Hati, Begadang Bisa Sebabkan Jantung Berdebar
+            </h4>
+            <p class="p">
+              Cukup tidur penting untuk mengistirahatkan tubuh dan pikiran. Dengan tidur, seluruh organ tubuh akan beristirahat dan beregenerasi. Keesokan harinya, tubuh akan kembali segar, bugar, dan siap beraktivitas.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/03015938/Hal-yang-Terjadi-pada-Tubuh-Pria-saat-Alami-Aspermia.jpg.webp" alt="Aspermia" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-pink">Reproduksi</span>
+            <h4>
+              Hal yang Terjadi pada Tubuh Pria saat Alami Aspermia
+            </h4>
+            <p class="p">
+              “Aspermia merupakan penyakit pada organ reproduksi pria dimana sperma tidak dapat dikeluarkan. Penyebabnya antara lain bisa karena infeksi, peradangan, kelainan genetik, dan lainnya”.
+            </p>
+          </div>
+        </div>
+    </section>
+    <!-- end artikel -->
+    <!-- form -->
+    <form> 
+      <input type="text" id="name" name="name"  placeholder="Nama">
+      <input type="text" id="city" name="city" placeholder="City">
+      <input type="email" id="email" name="email" placeholder="Email">
+      <input type="number" id="zip-code" name="zip-code" placeholder="Zip Code">
+      <label for="check" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+      <input type="checkbox" id="status" name="status" placeholder="status">
+      <button type="submit" id="submit-form">Submit</button>
+      <div id="warning"></div>
+    </form>
+    <!-- end form-->
+    <!-- footer -->
+      <footer class="footer">
+        <div class="footertele">
+            <div class="label-footer">
+                <a href="#" class="logofooter">
+                  <a href="#"><img src="logo.png" href="#" alt="TeleDoc" width="120" height="38" /></a>
+                </a>
+            </div>
+            <div class="sitemap-footer">
+                <h6>Site Map</h6>
+                <a href="#" class="lkf">FAQ</a>
+                <a href="#" class="lkf">Blog</a>
+                <a href="#" class="lkf">Syarat & Ketentuan</a>
+                <a href="#" class="lkf">Kebijakan Privasi</a>
+                <a href="#" class="lkf">Promo</a>
+            </div>
+            <div class="sitemap-footer">
+                <h6>Hubungi Kami</h6>
+                <a href="#" class="lkf">Gedung TeleDoc, Jl HR Rasuna Said</a>
+                <a href="#" class="lkf">Kav. 832-33, Jakarta Selatan 12940</a>
+                <a href="#" class="lkf">Phone: +6283452678115</a>
+                <a href="#" class="lkf">Email: teledoc@gmail.com</a>
+            </div>
+        </div>
+        <div class="akhirfooter">
+            <h4>© TeleDoc,2023. ALL RIGHT RESERVED</h4>
+
+            <div class="icons">
+              <i data-feather="instagram"></i>
+              <i data-feather="facebook"></i>
+              <i data-feather="twitter"></i>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
